@@ -1,0 +1,375 @@
+* {
+    box-sizing: border-box;
+}
+
+
+#imagehome {
+    width: 100vw;
+    margin-left: -0.5em;
+    display: flex;
+}
+
+
+
+/*---------------------NAV-------------------*/
+
+.desktop {
+    display: none;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    font-family: "Nexa Bold", sans-serif;
+    display: inline-block;
+    width: 30vw;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: hsl(250, 79.4%, 34.3%);
+}
+
+
+/*---------------------HOMEPAGE-------------------*/
+
+
+/*---------------------HEADER-------------------*/
+
+.search,
+.account {
+    max-height: 1.8em;
+    margin-left: 0.7em;
+    margin-right: 0.4em;
+    float: right;
+}
+
+.logo {
+    max-height: 2em;
+    margin-left: 0.5em;
+}
+
+header {
+    padding: 0.1em 1em 2.5em 1em;
+    height: 2em;
+    background-color: #fff;
+    box-shadow: 0 .3125em .625em 0 rgba(0, 0, 0, .15);
+    width: 100vw;
+    margin-left: -0.5em;
+    position: relative;
+    z-index: 2;
+}
+
+/*---------------------SEARCH-------------------*/
+#search{
+    background-color: white;
+    padding: 12px 20px 12px 28px;
+    box-shadow: 0 .3125em .625em 0 rgba(0, 0, 0, .15);
+
+    border: #f2f2f2;
+    opacity: 0.8;
+    margin-left: -0.5em;
+    margin-top: -3em;
+    transition: 0.2s all ease-out;
+    position: relative;
+}
+#search input{
+    width: 16em;
+    xmargin: 0;
+
+}
+#search.opensearch {
+    margin-top: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-family: "Nexa Light", sans-serif;
+    color: hsl(147, 72.4%, 48.2%);
+}
+
+ input[name=search] {
+        font-size: 1em;
+     border: none;
+    }
+
+
+
+
+
+/*---------------------SORTEREN-------------------*/
+
+h3 {
+    font-family: "Nexa Bold", sans-serif;
+    color: hsl(344, 97.0%, 60.2%);
+    font-size: 1.1em;
+    margin-right: 0.3em;
+    margin-left: 1em;
+}
+
+
+#sorteren {
+    display: flex;
+}
+
+.sort-items {
+    display: flex;
+    background-color: whitesmoke;
+    width: 100vw;
+    margin-left: -0.5em;
+}
+
+.sorteer-blok {
+    display: flex;
+    padding: 0.3em;
+}
+
+select {
+    width: 10em;
+    height: 2.5em;
+    padding: .5em 1em .5em .3em;
+    vertical-align: middle;
+    color: #606060;
+    font-size: 0.8em;
+    border: .0625em solid #91a3b7;
+    outline: 0;
+    border-radius: .5em;
+    background: #fff;
+    box-shadow: 0 .1875rem .0625rem #91a3b7;
+    margin: 0.6em 0 0 1em;
+}
+
+
+/*---------------------SECTION - ARTICLE-------------------*/
+
+section {
+    background-color: rgb(243, 229, 217);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-left: -0.5em;
+    margin-top: -.2em;
+    padding-bottom: 1em;
+}
+
+section article {
+    background-color: hsla(0, 100%, 100%, 0.8);
+    padding: .050em 1.4em 0.9em 1.4em;
+    margin: 1em 1em 0.2em 1em;
+    border-radius: 1em;
+    max-width: 40em;
+}
+
+article p {
+    font-family: "Nexa Light", sans-serif;
+    letter-spacing: 0.02em;
+    font-size: 0.8em;
+    margin-top: 0.6em;
+    color: hsl(0, 0.0%, 37.6%);
+    max-width: 40em;
+}
+
+h2 {
+    font-family: "Nexa Bold", sans-serif;
+    margin-bottom: 0;
+    margin-left: 0.5em;
+    color: hsl(147, 72.4%, 48.2%);
+    font-size: 1.3em;
+}
+
+article time {
+    font-family: "Nexa Light", sans-serif;
+    font-size: 0.7em;
+    margin-left: 1.8em;
+    color: hsl(250, 79.4%, 34.3%);
+}
+
+article footer {
+    color: hsl(344, 97.0%, 60.2%);
+    font-family: "Nexa Bold", sans-serif;
+    font-size: 0.8em;
+}
+
+.readmore {
+    max-height: 1.3em;
+    float: right;
+    margin-bottom: 0.5em;
+    padding: 0 1em 0 3em;
+}
+
+
+/*---------------------AANMELDEN-------------------*/
+
+#imgback {
+    margin-left: -10em;
+    z-index: -1;
+    position: absolute;
+    height: 49em;
+}
+
+#logo {
+    display: block;
+    max-width: 12em;
+    margin: auto;
+    padding-top: 2em;
+    z-index: 1;
+    position: relative;
+}
+
+#sign-in {
+    background-color: hsla(0, 100%, 100%, 0.8);
+    margin: 2em auto;
+    border-radius: 1em;
+    padding: 1em 2em;
+    max-width: 88vw;
+}
+
+h1 {
+    font-family: "Nexa Bold", sans-serif;
+    color: hsl(147, 72.4%, 48.2%);
+    font-size: 2em;
+    margin-left: 0.5em;
+}
+
+.make-account {
+    line-height: 1.2em;
+font-family: "Nexa Light", sans-serif;
+    margin: -0.5em 0 1em 0;
+}
+
+.log-in {
+    font-family: "Nexa light", sans-serif;
+    font-size: 0.85em;
+    padding-top: 1em;
+    display: inline-block;
+
+}
+
+#sign-in form {
+    font-family: "Nexa Bold", sans-serif;
+    margin-bottom: 1em;
+    font-size: 0.9em;
+}
+
+#sign-in form input {
+    display: block;
+    border-radius: 0.2em;
+    padding: 0.5em;
+    margin: 0.5em;
+}
+
+#sign-in form input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+}
+
+#sign-in input[type=submit] {
+    font-family: "Nexa Bold", sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+    background-color: hsl(344, 97.0%, 60.2%);
+    width: 12em;
+    display: block;
+    margin: 1em auto;
+    border-radius: 3em;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+}
+
+#sign-in input:valid {
+    box-shadow: inset 0 -.1875em .0625em #22D472;
+}
+
+input:invalid {
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+}
+
+.inloggen {
+    font-family: "Nexa Bold", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #ca2b55;
+    width: 6.5em;
+    height: 1.7em;
+    display: inline-block;
+    margin: auto;
+    border-radius: 3em;
+    background-color: white;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    text-decoration: none;
+    padding-top: 0.3em;
+
+
+}
+
+
+/*---------------------MEDIA QUERIES-------------------*/
+
+
+/*-----------------------HOMEPAGE----------------------*/
+
+@media (min-width:600px) {
+
+    section {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section article {
+        max-width: 44%;
+    }
+
+    /*-----------------------AANMELDEN---------------------*/
+    #imgback {
+        height: 67em;
+    }
+    #sign-in {
+        max-width: 34em;
+    }
+    #sign-in form {
+        font-size: 0.98em;
+    }
+    #sign-in form input[name=tussenvoegsel] {
+        width: 20%;
+        margin: 0.5em;
+    }
+    #sign-in form input[name=Lastname] {
+        width: 32%;
+        margin-left: 0.5em;
+    }
+    /*----------------MEDIA QUERIES DESKTOP---------------*/
+    /*----------------------HOMEPAGE----------------------*/
+    @media (min-width:801px) {
+        .mobile {
+            display: none;
+        }
+        .desktop {
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0);
+        }
+        section article {
+            max-width: 45%;
+        }
+    }
+    @media (min-width:1035px) {
+        section article {
+            max-width: 30%;
+            min-width: 30%;
+        }
+    }
+}
